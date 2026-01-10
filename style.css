@@ -3,10 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
- body{
-    background-color: aqua;
- } 
-/* shared styles */
 .inter-font-sans {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -26,18 +22,19 @@
     color: #FFFFFF;
   cursor: pointer;
 }
-/* main style */
 header {
   background-color: #ffffff;
   padding-top: 34px;
 }
 nav{
+
     width: 100%;
     max-width: 1600px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 120px;
 }
 nav .menu {
   list-style-type: none;
@@ -49,4 +46,138 @@ nav .menu a {
   text-decoration: none;
   color: #000000;
   font-size: 16px;
+}
+
+#bannar .bannar-content {
+    padding-top: 0px;;
+    width: 100%;
+    height: 674px;
+    max-width: 1600px;
+    margin: 0 auto;
+    align-items: center;
+    background-image: url(images/hero-bg.png);
+    background-size: cover;
+}   
+
+#bannar .bannar-content .bannar-text .badge {
+    display: inline-block;
+    background-color: #ffffff;
+    color: #30B868;
+    font-size: 16px;
+    padding: 8px 12px 8px 34px;
+    border-radius: 24px;
+    margin-top: 131px;
+}
+
+
+#bannar .bannar-content .bannar-text {
+    text-align: center;
+}
+#bannar .bannar-content .bannar-text h1 {
+    padding-top: 16px;
+    padding-bottom: 32px;
+    text-align: center;
+    font-size: 72px;
+    color: #ffffff
+}
+#bannar .bannar-content .bannar-text h1 .color{
+    color: #30B868;
+}
+#bannar .bannar-content .bannar-text p {
+    padding-bottom: 32px;
+    text-align: center;
+    font-size: 18px;
+    color: #ffffff;
+}
+#about .about-info {
+    width: 100%;
+    max-width: 1600px;
+    padding: 0 120px;
+    margin: 0 auto;
+    text-align: center;
+}
+#about .about-info h2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    padding-top: 50px;
+    padding-bottom: 16px;
+}
+#about .about-info p {
+    font-size: 16px;
+    color: #627382;
+    padding-bottom: 64px;
+}
+#skill {
+    width: 100%;
+    max-width: 1360px;
+    padding-top: 69.5px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    text-align: center;
+    gap: 24px;
+    box-shadow: 0 4px 12px 0 #000000;
+}
+#skill .skill-card img {
+    width: 60px;
+    height: 60px;
+    background-color: #F95555;
+    border-radius: 50%;
+    border-image-width: 32px;
+    border-image-height: 32px;
+}
+#skill .skill-card h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+    padding-top: 16px;
+    padding-bottom: 8px;
+}
+#skill .skill-card p {
+    font-size: 16px;
+    color: #627382;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+#solution {
+    width: 100%;
+    max-width: 1600px;
+    padding: 120px;
+    display: flex;
+    gap: 60px;
+    margin: 0 auto;
+}
+#solution .solution-image img {
+    width: 600px;
+    height: 600px;
+}
+#solution .solution-info {
+    max-width: 700px;
+    padding: 101.5px 0;
+    margin: 0 auto;
+}
+#solution .solution-info h6{
+    font-size: 16px;
+    color: #30B868;
+    padding-bottom: 16px;
+}
+#solution .solution-info h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    padding-bottom: 16px;
+}
+#solution .solution-info p{
+    font-size: 16px;
+    color: #627382;
+    padding-bottom: 40px;
+}
+#solution .solution-info h5{
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 16px;
+    margin: 0 auto;
+    color: #001931;
 }
