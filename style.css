@@ -56,25 +56,58 @@ nav .menu a {
     align-items: center;
     background-image: url(images/hero-bg.png);
     background-size: cover;
-}   
-
-#bannar .bannar-content .bannar-text .badge {
-    display: inline-block;
-    background-color: #ffffff;
-    color: #30B868;
-    font-size: 16px;
-    padding: 8px 12px 8px 34px;
-    border-radius: 24px;
-    margin-top: 131px;
 }
 
-
 #bannar .bannar-content .bannar-text {
+    padding: 115.5px 120px 179.5px 120px;
     text-align: center;
+}
+#bannar .bannar-content .bannar-text .second-btn {
+    height: 52px;
+    width: 251px;
+    background-color: #30B868;
+    color: #FFFFFF;
+    padding: 12px 16px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+#bannar .bannar-content .bannar-text .third-btn {
+    height: 52px;
+    width: 198px;
+    background-color: transparent;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    padding: 12px 16px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+#bannar .bannar-content .bannar-text .badge {
+    width: 229px;
+    height: 35px;
+    margin: 0 auto;
+    display: flex;
+    gap: 6px;
+    background-color: #ffffff;
+    color: #30B868;
+    padding: 8px 12px;
+    font-size: 16px;
+    border-radius: 24px;
+    text-align: center;
+}
+#bannar .bannar-content .bannar-text .badge img {
+    background-color: #469165;
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    opacity: 0.6;
 }
 #bannar .bannar-content .bannar-text h1 {
     padding-top: 16px;
-    padding-bottom: 32px;
+    padding-bottom: 16px;
     text-align: center;
     font-size: 72px;
     color: #ffffff
@@ -86,59 +119,67 @@ nav .menu a {
     padding-bottom: 32px;
     text-align: center;
     font-size: 18px;
+    font-weight: 400;
     color: #ffffff;
 }
-#about .about-info {
+#about {
     width: 100%;
-    max-width: 1600px;
-    padding: 0 120px;
+    max-width: 1360px;
+    height: 152px;
+    margin: 0 auto;
+}
+#about .about-info {
     margin: 0 auto;
     text-align: center;
 }
-#about .about-info h2 {
+#about .about-info h1 {
     font-size: 48px;
-    font-weight: bold;
+    font-weight: 700;
+    font-style: bold;
     color: #001931;
-    padding-top: 50px;
-    padding-bottom: 16px;
+    margin-bottom: 16px;
 }
 #about .about-info p {
     font-size: 16px;
     color: #627382;
-    padding-bottom: 64px;
+    margin-bottom: 40px;
 }
 #skill {
     width: 100%;
     max-width: 1360px;
-    padding-top: 69.5px;
-    display: flex;
+    height: 300px;
     margin: 0 auto;
-    justify-content: space-between;
     text-align: center;
-    gap: 24px;
-    box-shadow: 0 4px 12px 0 #000000;
 }
-#skill .skill-card img {
+#skill .skill-box {
+    display: flex;
+    gap: 24px;
+}
+.skill-box .skill-card {
+    padding-top: 69.5px;
+    margin-top: 44px;
+    width: 322px;
+    height: 300px;
+    box-shadow: 0px 0px 8px #0000000F;  
+}
+.skill-card img {
+    background-color: #F95555;
     width: 60px;
     height: 60px;
-    background-color: #F95555;
     border-radius: 50%;
-    border-image-width: 32px;
-    border-image-height: 32px;
 }
 #skill .skill-card h3 {
     font-size: 24px;
     font-weight: 600;
     color: #001931;
-    padding-top: 16px;
-    padding-bottom: 8px;
+    margin-bottom: 16px;
 }
 #skill .skill-card p {
     font-size: 16px;
+    width: 274px;
+    height: 40px;
+    margin: 0 auto;
     color: #627382;
-    padding-bottom: 40px;
-    padding-left: 40px;
-    padding-right: 40px;
 }
 #solution {
     width: 100%;
@@ -182,38 +223,65 @@ nav .menu a {
 }
 #last-section {
     width: 100%;
-    max-width: 1360px;
+    max-width: 1600px;
+    height: 506px;
     padding: 2px 120px 120px 120px;
-    border-radius: 10px;
+
     margin: 0 auto;
+}
+#last-section .last-content {
+    max-width: 1360px;
+    height: 384px;
+    padding: 80px 40px;
+    margin: 0 auto;
+    border-radius: 12px;
+    text-align: center; 
     background-color: #F7F6F2;
-    text-align: center;
 }
-#last-section .last-content{
-    padding: 80px 0;
+#last-section .last-content .last-content-info{
+    width: 1280px;
+    height: 112px;
 }
-#last-section .last-content h1{
+#last-section .last-content .last-content-info h1{
+    height: 48px;
     font-size: 40px;
     font-weight: bold;
     color: #001931;
-    padding-bottom: 16px;
+    margin-bottom: 16px;
 }
 #last-section .last-content p{
     font-size: 16px;
     color: #627382;
-    padding-bottom: 24px;
+    margin-bottom: 24px;
 }
-#last-section .last-content span{
-    padding: 16px auto 0 auto;
-    color: #627382;
+#last-section .last-content .early-access-section{
+    width: 1280px;
+    height: 88px;
+}
+#last-section .last-content .early-access-section .ea-btn{
+    height: 52px;
+    width: 194px;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #30B868;
+    color: #FFFFFF;
     font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+#last-section .last-content .early-access-section span{
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
 }
 footer {
     width: 100%;
     max-width: 1600px;
+    height: 348px;
     margin: 0 auto;
     background-color: #001931;
-    color: #FFFFFF;
+    color: #ffffff;
     padding: 40px 0;
 }
 footer .footer-container {
@@ -225,7 +293,20 @@ footer .footer-container {
     justify-content: space-between;
     align-items: center;
 }
-footer .footer-container img {
+footer .footer-container .footer-logo img {
     width: 139px;
     height: 60px;
+}
+footer .footer-container .footer-social p{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+footer .footer-container .footer-social img {
+    width: 20px;
+    height: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: inline-block;
+    margin-right: 16px;
 }
