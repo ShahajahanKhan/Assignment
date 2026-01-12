@@ -27,7 +27,6 @@ header {
   padding-top: 34px;
 }
 nav{
-
     width: 100%;
     max-width: 1600px;
     margin: 0 auto;
@@ -180,4 +179,53 @@ nav .menu a {
     padding-bottom: 16px;
     margin: 0 auto;
     color: #001931;
+}
+#last-section {
+    width: 100%;
+    max-width: 1360px;
+    padding: 2px 120px 120px 120px;
+    border-radius: 10px;
+    margin: 0 auto;
+    background-color: #F7F6F2;
+    text-align: center;
+}
+#last-section .last-content{
+    padding: 80px 0;
+}
+#last-section .last-content h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: #001931;
+    padding-bottom: 16px;
+}
+#last-section .last-content p{
+    font-size: 16px;
+    color: #627382;
+    padding-bottom: 24px;
+}
+#last-section .last-content span{
+    padding: 16px auto 0 auto;
+    color: #627382;
+    font-size: 16px;
+}
+footer {
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: #001931;
+    color: #FFFFFF;
+    padding: 40px 0;
+}
+footer .footer-container {
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 80px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .footer-container img {
+    width: 139px;
+    height: 60px;
 }
