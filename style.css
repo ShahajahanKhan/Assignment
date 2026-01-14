@@ -14,6 +14,8 @@
 
 .btn {
   background-color: #30B868;
+  width: 164px;
+  height: 44px;
   border: none;
   padding: 12px 16px;
   border-radius: 4px;
@@ -22,20 +24,24 @@
     color: #FFFFFF;
   cursor: pointer;
 }
+.btn:hover{
+  background-color: rgb(38, 209, 209);
+}
 header {
   background-color: #ffffff;
-  padding-top: 34px;
 }
 nav{
     width: 100%;
     max-width: 1600px;
+    height: 92px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 0 120px;
+    padding: 16px 120px;
 }
 nav .menu {
+    font-size: 16px;
+    font-weight: 500;
   list-style-type: none;
   display: flex;
   align-items: center;
@@ -46,7 +52,9 @@ nav .menu a {
   color: #000000;
   font-size: 16px;
 }
-
+nav .menu a:hover{
+    color: #3930b8;
+}
 #bannar .bannar-content {
     padding-top: 0px;;
     width: 100%;
@@ -59,6 +67,10 @@ nav .menu a {
 }
 
 #bannar .bannar-content .bannar-text {
+    width: 100%;
+    max-width: 1360px;
+    height: 379px;
+    margin: 0 auto;
     padding: 115.5px 120px 179.5px 120px;
     text-align: center;
 }
@@ -68,11 +80,15 @@ nav .menu a {
     background-color: #30B868;
     color: #FFFFFF;
     padding: 12px 16px;
+    margin-right: 16px;
     border-radius: 4px;
     font-size: 16px;
     font-weight: 600;
     cursor: pointer;
     text-align: center;
+}
+#bannar .bannar-content .bannar-text .second-btn:hover{
+  background-color: rgb(38, 209, 209);
 }
 #bannar .bannar-content .bannar-text .third-btn {
     height: 52px;
@@ -85,6 +101,9 @@ nav .menu a {
     font-size: 16px;
     font-weight: 600;
     cursor: pointer;
+}
+#bannar .bannar-content .bannar-text .third-btn:hover{
+  background-color: rgb(38, 209, 209);
 }
 #bannar .bannar-content .bannar-text .badge {
     width: 229px;
@@ -99,6 +118,9 @@ nav .menu a {
     border-radius: 24px;
     text-align: center;
 }
+#bannar .bannar-content .bannar-text .badge:hover{
+    background-color: rgb(38, 209, 209);
+}
 #bannar .bannar-content .bannar-text .badge img {
     background-color: #469165;
     width: 16px;
@@ -111,7 +133,10 @@ nav .menu a {
     padding-bottom: 16px;
     text-align: center;
     font-size: 72px;
+    font-weight: 700;
+    opacity: 90%;
     color: #ffffff
+    
 }
 #bannar .bannar-content .bannar-text h1 .color{
     color: #30B868;
@@ -119,6 +144,7 @@ nav .menu a {
 #bannar .bannar-content .bannar-text p {
     padding-bottom: 32px;
     text-align: center;
+    line-height: 24px;
     font-size: 18px;
     font-weight: 400;
     color: #ffffff;
@@ -161,13 +187,14 @@ nav .menu a {
     margin-top: 44px;
     width: 322px;
     height: 300px;
-    box-shadow: 0px 0px 8px #0000000F;  
+    box-shadow: 0px 0px 8px 0px #0000000F;  
 }
 .skill-card img {
     background-color: #F95555;
     width: 60px;
     height: 60px;
     border-radius: 50%;
+    align-items: center;
 }
 #skill .skill-card h3 {
     font-size: 24px;
@@ -187,7 +214,6 @@ nav .menu a {
     max-width: 1600px;
     padding: 120px;
     display: flex;
-    gap: 60px;
     margin: 0 auto;
 }
 #solution .solution-image img {
@@ -223,14 +249,12 @@ nav .menu a {
     color: #001931;
     display: flex;
     gap: 6px;
-    /* align-items: center; */
 }
 #last-section {
     width: 100%;
     max-width: 1600px;
     height: 506px;
     padding: 2px 120px 120px 120px;
-
     margin: 0 auto;
 }
 #last-section .last-content {
@@ -253,10 +277,9 @@ nav .menu a {
     color: #001931;
     margin-bottom: 16px;
 }
-#last-section .last-content p{
+#last-section .last-content .last-content-info p{
     font-size: 16px;
     color: #627382;
-    margin-bottom: 24px;
 }
 #last-section .last-content .early-access-section{
     width: 1280px;
@@ -265,7 +288,6 @@ nav .menu a {
 #last-section .last-content .early-access-section .ea-btn{
     height: 52px;
     width: 194px;
-    padding: 12px 16px;
     border: none;
     border-radius: 4px;
     background-color: #30B868;
@@ -273,6 +295,11 @@ nav .menu a {
     font-size: 16px;
     font-weight: 600;
     cursor: pointer;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+#last-section .last-content .early-access-section .ea-btn:hover{
+  background-color: rgb(38, 209, 209);
 }
 #last-section .last-content .early-access-section span{
     font-size: 16px;
@@ -314,8 +341,8 @@ footer .footer-container .footer-social img {
     display: inline-block;
     margin-right: 16px;
 }
-footer .footer-bottom {
-
+footer .footer-container .footer-social img:hover{
+    background-color: #26aae7;
 }
 footer .footer-bottom hr {
     width: 1360px;
